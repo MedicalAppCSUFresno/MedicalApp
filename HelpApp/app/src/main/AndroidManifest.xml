@@ -17,8 +17,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main2Activity"
-            android:label="@string/title_activity_main2"></activity>
+            android:name=".CreateAcc"
+            android:label="CreateAcc" />
+        <activity
+            android:name=".Recover"
+            android:label="@string/title_activity_recover"></activity>
     </application>
 
 </manifest>

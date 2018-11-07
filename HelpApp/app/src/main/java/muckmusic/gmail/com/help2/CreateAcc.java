@@ -3,12 +3,12 @@ package muckmusic.gmail.com.help2;
 import android.os.Bundle;
 import android.app.Activity;
 
-public class Main2Activity extends Activity {
+public class CreateAcc extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_createacc);
     }
 
 }
