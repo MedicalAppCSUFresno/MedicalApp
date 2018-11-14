@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/iv"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginEnd="8dp"
@@ -15,13 +15,17 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="150dp"
+        android:src="@drawable/iconbag"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/colorAccent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/hospital"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginEnd="8dp"
@@ -29,13 +33,17 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="150dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        android:src="@drawable/iconchurch"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/iv"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/colorAccent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/doc"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginEnd="8dp"
@@ -43,13 +51,17 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="150dp"
+        android:src="@drawable/icondoc"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton6"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/colorAccent" />
+        app:layout_constraintStart_toEndOf="@+id/iv"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/needle"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginEnd="8dp"
@@ -57,13 +69,17 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        android:src="@drawable/iconneedle"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/steth"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@color/colorAccent" />
+        app:layout_constraintTop_toBottomOf="@+id/hospital" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/nurse"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginEnd="8dp"
@@ -71,41 +87,53 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
+        android:src="@drawable/iconnurse"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton3"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton8"
-        app:srcCompat="@color/colorAccent" />
+        app:layout_constraintStart_toEndOf="@+id/steth"
+        app:layout_constraintTop_toBottomOf="@+id/doc" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/pillbottle"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton7"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/iconpillbottle"
+        app:layout_constraintEnd_toStartOf="@+id/rx"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton9"
-        app:srcCompat="@color/colorAccent" />
+        app:layout_constraintTop_toBottomOf="@+id/needle" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/monitor"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/iconpulse"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton7"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
-        app:srcCompat="@color/colorAccent" />
+        app:layout_constraintStart_toEndOf="@+id/rx"
+        app:layout_constraintTop_toBottomOf="@+id/nurse" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/rx"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginEnd="8dp"
@@ -113,14 +141,18 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
+        android:src="@drawable/iconsnake"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:srcCompat="@color/colorAccent" />
+        app:layout_constraintTop_toBottomOf="@+id/steth" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/steth"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginEnd="8dp"
@@ -128,9 +160,13 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
+        android:src="@drawable/iconsteth"
+        android:background="@android:color/transparent"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-        app:srcCompat="@color/colorAccent" />
+        app:layout_constraintTop_toBottomOf="@+id/iv" />
 
 </android.support.constraint.ConstraintLayout>

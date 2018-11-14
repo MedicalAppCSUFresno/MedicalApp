@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ProfilePage1"
+            android:label="@string/title_activity_profile_page1" />
+        <activity
+            android:name=".DoctorFinder"
+            android:label="@string/title_activity_doctor_finder"></activity>
     </application>
 
 </manifest>

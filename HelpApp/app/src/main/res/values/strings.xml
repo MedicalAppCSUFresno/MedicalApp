@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Help2</string>
+    <string name="title_activity_profile_page1">ProfilePage1</string>
+    <string name="title_activity_doctor_finder">DoctorFinder</string>
 </resources>
