@@ -1,7 +1,9 @@
 package muckmusic.gmail.com.help2;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.location.Geocoder;
 import android.location.Location;
 
 import android.os.Build;
@@ -11,6 +13,11 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.view.View;
+import android.widget.EditText;
+import android.location.Address;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -27,6 +34,9 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.io.IOException;
+import java.util.List;
+
 
 public class DoctorLocator extends FragmentActivity implements OnMapReadyCallback,
     GoogleApiClient.ConnectionCallbacks,
@@ -36,8 +46,8 @@ public class DoctorLocator extends FragmentActivity implements OnMapReadyCallbac
 
     private GoogleMap mMap;
     private GoogleApiClient client;
-    private LocationRequest locationRequest;
-    private Location lastLocation;
+    public LocationRequest locationRequest;
+    public Location lastLocation;
     private Marker currentLocationMarker;
     public static final int REQUEST_LOCATION_CODE = 99;
 
@@ -74,7 +84,6 @@ public class DoctorLocator extends FragmentActivity implements OnMapReadyCallbac
                else{
                    Toast.makeText(this, "Permission Denied!", Toast.LENGTH_LONG).show();
                }
-               return;
        }
     }
 
@@ -120,18 +129,60 @@ public class DoctorLocator extends FragmentActivity implements OnMapReadyCallbac
             currentLocationMarker = mMap.addMarker(markerOptions);
 
             mMap.moveCamera(CameraUpdateFactory.newLatLng(latlng));
-            mMap.animateCamera(CameraUpdateFactory.zoomBy(10));
+            mMap.animateCamera(CameraUpdateFactory.zoomBy(-5));
 
             if(client != null){
                 LocationServices.FusedLocationApi.removeLocationUpdates(client, this);
             }
     }
 
+    public void onClick(View v)
+    {
+        if (v.getId() == R.id.Search)
+        {
+            EditText tf_location = (EditText)findViewById(R.id.TF_location);
+            String location = tf_location.getText().toString();
+            List<Address> addressList = null;
+            MarkerOptions mo = new MarkerOptions();
+
+            if ( !location.equals(""))
+            {
+                Geocoder geocoder = new Geocoder(this);
+                try {
+                    addressList = geocoder.getFromLocationName(location, 5);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                for( int i = 0;i<addressList.size(); i++)
+                {
+                    Address myAddress = addressList.get(i);
+                    LatLng latlng = new LatLng(myAddress.getLatitude(), myAddress.getLongitude());
+                    mo.position(latlng);
+                    mo.title("Your Search Result");
+                    mMap.addMarker(mo);
+                    mMap.animateCamera(CameraUpdateFactory.newLatLng(latlng));
+                }
+            }
+        }
+
+        if(v.getId() == R.id.I_Search)
+        {
+            ImageButton backbtn = (ImageButton)findViewById(R.id.I_Search);
+
+                Intent startIntent = new Intent(DoctorLocator.this, MainActivity.class);
+                startActivity(startIntent);
+
+        }
+        }
+
+
+
     @Override
     public void onConnected(@Nullable Bundle bundle) {
-            
+
         locationRequest = new LocationRequest();
-        
+
         locationRequest.setInterval(1000);
         locationRequest.setFastestInterval(1000);
         locationRequest.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY);
