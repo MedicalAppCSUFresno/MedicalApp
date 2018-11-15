@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Search_Activity" />
         <activity android:name=".SearchActivity" />
-        <activity android:name=".SearchPage"></activity>
+        <activity android:name=".SearchPage" />
+        <activity android:name=".SymptomChecker"></activity>
     </application>
 
 </manifest>
