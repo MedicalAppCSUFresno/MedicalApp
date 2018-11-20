@@ -192,4 +192,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv" />
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="332dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/iv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bannersvgheader4" />
+
+    <TextView
+        android:id="@+id/GetThatCheckedOut"
+        android:layout_width="273dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="Get That Checked Out"
+        android:textSize="30sp"
+        app:fontFamily="@font/damion"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.318" />
+
 </android.support.constraint.ConstraintLayout>
