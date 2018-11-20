@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Get That Checked Out</string>
+    <string name="title_activity_doctor_finder">Map</string>
+    <string name="seach_local_medical_facilities">Seach Local Medical Facilities</string>
+    <string name="search">Search</string>
+    <string name="todo">TODO</string>
+    <string name="symptoms">Symptoms</string>
+</resources>
