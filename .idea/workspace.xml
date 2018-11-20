@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cafec68-3ee4-40a9-88d8-95127895274b" name="Default" comment="" />
+    <list default="true" id="5cafec68-3ee4-40a9-88d8-95127895274b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SymptomChecker.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SymptomChecker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="438" selection-start-line="438" selection-end-line="438" selection-end-column="51" />
+            <state relative-caret-position="100">
+              <caret line="424" selection-start-line="424" selection-end-line="424" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#16846#16854#0" expanded="true" />
@@ -59,11 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,19 +190,6 @@
         </map>
       </branch-storage>
     </favorite-branches>
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2478,20 +2471,21 @@
         <option value="$PROJECT_DIR$/src/main/assets/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Priaid/Diagnosis/Client/DiagnosisClient.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PillID.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_pill_id.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_symptom_checker.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="42" />
     <option name="y" value="2" />
-    <option name="width" value="1728" />
+    <option name="width" value="1858" />
     <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -2740,7 +2734,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="2" width="1382" height="811" extended-state="0" />
+    <frame x="34" y="2" width="1486" height="811" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="12" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2748,16 +2742,16 @@
       <window_info id="Image Layers" order="7" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5045386" side_tool="true" visible="true" weight="0.3274596" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50420755" side_tool="true" visible="true" weight="0.37004405" />
       <window_info anchor="right" id="Preview" order="6" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769938" weight="0.32952926" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49546143" visible="true" weight="0.3274596" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49579242" visible="true" weight="0.37004405" />
       <window_info anchor="bottom" id="Logcat" order="10" />
       <window_info id="Captures" order="4" weight="0.24942966" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1860817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17251052" />
       <window_info anchor="bottom" id="Build" order="9" sideWeight="0.827534" weight="0.14977974" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49824807" weight="0.2907489" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.32960895" />
@@ -3087,17 +3081,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="438" selection-start-line="438" selection-end-line="438" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#16846#16854#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -3115,8 +3098,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="424" selection-start-line="424" selection-end-line="424" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16846#16854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
