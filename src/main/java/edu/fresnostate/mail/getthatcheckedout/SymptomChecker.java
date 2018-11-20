@@ -316,10 +316,12 @@ public class SymptomChecker extends AppCompatActivity {
 
     private WebView webview;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_symptom_checker);
+
 /*
         String authUrl = "";
         String userName = "";
@@ -419,11 +421,9 @@ public class SymptomChecker extends AppCompatActivity {
                 sucess=false;
             }
         }
-        //String[] symptomList = selectedSymptoms.toArray();
 
 */
-
-        // These code snippets use an open-source library. http://unirest.io/java
+        //String[] symptomList = selectedSymptoms.toArray();
 
         String[] symptomList = {"Apple", "Orange"};
 
