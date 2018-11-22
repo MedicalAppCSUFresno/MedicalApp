@@ -443,7 +443,7 @@ public class SymptomChecker extends AppCompatActivity {
             public void onLoadResource(WebView view, String url) {
                 webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('share-mobile')[0].style.display='none'; " + "})()");
                 webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('help-mobile')[0].style.display='none'; " + "})()");
-                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('login-lmobile')[0].style.display='none'; " + "})()");
+                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('login-mobile')[0].style.display='none'; " + "})()");
                 }
             }
         );
