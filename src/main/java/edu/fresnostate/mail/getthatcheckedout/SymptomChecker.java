@@ -438,7 +438,15 @@ public class SymptomChecker extends AppCompatActivity {
 
         webview =(WebView)findViewById(R.id.webMD);
 
-        webview.setWebViewClient(new WebViewClient());
+        webview.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onLoadResource(WebView view, String url) {
+                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('share-mobile')[0].style.display='none'; " + "})()");
+                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('help-mobile')[0].style.display='none'; " + "})()");
+                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('login-lmobile')[0].style.display='none'; " + "})()");
+                }
+            }
+        );
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setDomStorageEnabled(true);
         webview.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
