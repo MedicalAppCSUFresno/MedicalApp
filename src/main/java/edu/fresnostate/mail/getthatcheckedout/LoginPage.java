@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class LoginPage extends AppCompatActivity {
 
     private EditText emailtxt, passwordtxt;
-    private Button signin, signup, reset;
+    private Button signin, signup, reset, skip;
     private ProgressBar progressBar;
     private FirebaseAuth auth;
 
@@ -37,11 +37,20 @@ public class LoginPage extends AppCompatActivity {
         emailtxt = (EditText) findViewById(R.id.email);
         passwordtxt = (EditText) findViewById(R.id.password);
         reset = (Button) findViewById(R.id.resetPass);
+        skip = (Button) findViewById(R.id.skip);
+
+        skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(LoginPage.this, SymptomChecker.class);
+                startActivity(startIntent);
+            }
+        });
 
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(LoginPage.this, ProfilePage1.class);
+                Intent startIntent = new Intent(LoginPage.this, ResetPassword.class);
                 startActivity(startIntent);
             }
         });
@@ -121,7 +130,6 @@ public class LoginPage extends AppCompatActivity {
                                 }
                             }
                         });
-
             }
         });
     }
