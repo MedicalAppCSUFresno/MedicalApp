@@ -7,7 +7,7 @@
     tools:context=".LoginPage">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginStart="85dp"
@@ -19,14 +19,14 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textEmailAddress|textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_marginStart="85dp"
@@ -38,7 +38,7 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress|textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -56,13 +56,13 @@
         android:gravity="center"
         android:text="Get That Checked Out"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/resetPass"
         android:layout_width="247dp"
         android:layout_height="42dp"
         android:layout_marginStart="69dp"
@@ -77,7 +77,7 @@
         app:layout_constraintBottom_toTopOf="@+id/skip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/skip2" />
+        app:layout_constraintTop_toBottomOf="@+id/newUser" />
 
     <Button
         android:id="@+id/skip"
@@ -98,7 +98,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/skip2"
+        android:id="@+id/newUser"
         android:layout_width="112dp"
         android:layout_height="37dp"
         android:layout_marginStart="136dp"
@@ -108,13 +108,13 @@
         android:layout_marginRight="136dp"
         android:layout_marginBottom="21dp"
         android:text="New User"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/resetPass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="37dp"
         android:layout_marginStart="148dp"
@@ -124,17 +124,18 @@
         android:layout_marginRight="148dp"
         android:layout_marginBottom="4dp"
         android:text="Login"
-        app:layout_constraintBottom_toTopOf="@+id/skip2"
+        app:layout_constraintBottom_toTopOf="@+id/newUser"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <TextView
-        android:id="@+id/sampleTex"
-        android:layout_width="146dp"
-        android:layout_height="67dp"
+        android:id="@+id/example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="424dp" />
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="435dp" />
 
 </android.support.constraint.ConstraintLayout>

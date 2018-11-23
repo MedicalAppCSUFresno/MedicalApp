@@ -32,8 +32,9 @@ public class PillID extends AppCompatActivity {
                 webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('footer')[0].style.display='none'; " + "})()");
                 webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('sideBox sideBoxMiddleAd sideBoxFloatRight')[0].style.display='none'; " + "})()");
                 webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('boxList clearAfter')[0].style.display='none'; " + "})()");
-                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsById('display-ad-injection-1')[0].style.display='none'; " + "})()");
-
+                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('display-ad display-ad-injection display-ad-dfp display-ad-300 display-ad-300-250')[0].style.display='none'; " + "})()");
+                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('contentAd contentAdM1 contentAdAlone')[0].style.display='none'; " + "})()");
+                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('footer-feature')[0].style.display='none'; " + "})()");
 
                 }
             }

@@ -3,15 +3,12 @@ package edu.fresnostate.mail.getthatcheckedout;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.AssetManager;
-import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -322,6 +319,7 @@ public class SymptomChecker extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_symptom_checker);
 
+
 /*
         String authUrl = "";
         String userName = "";
@@ -422,19 +420,8 @@ public class SymptomChecker extends AppCompatActivity {
             }
         }
 
+        String[] symptomList = (String[]) selectedSymptoms.toArray();
 */
-        //String[] symptomList = selectedSymptoms.toArray();
-
-        String[] symptomList = {"Apple", "Orange"};
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>
-                (this, android.R.layout.select_dialog_item, symptomList);
-
-        AutoCompleteTextView actv = (AutoCompleteTextView) findViewById(R.id.symptomInput);
-        actv.setThreshold(1);
-
-        actv.setAdapter(adapter);
-        actv.setTextColor(Color.RED);
 
         webview =(WebView)findViewById(R.id.webMD);
 
