@@ -3,15 +3,12 @@ package edu.fresnostate.mail.getthatcheckedout;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.AssetManager;
-import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -316,10 +313,13 @@ public class SymptomChecker extends AppCompatActivity {
 
     private WebView webview;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_symptom_checker);
+
+
 /*
         String authUrl = "";
         String userName = "";
@@ -419,26 +419,21 @@ public class SymptomChecker extends AppCompatActivity {
                 sucess=false;
             }
         }
-        //String[] symptomList = selectedSymptoms.toArray();
 
+        String[] symptomList = (String[]) selectedSymptoms.toArray();
 */
-
-        // These code snippets use an open-source library. http://unirest.io/java
-
-        String[] symptomList = {"Apple", "Orange"};
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>
-                (this, android.R.layout.select_dialog_item, symptomList);
-
-        AutoCompleteTextView actv = (AutoCompleteTextView) findViewById(R.id.symptomInput);
-        actv.setThreshold(1);
-
-        actv.setAdapter(adapter);
-        actv.setTextColor(Color.RED);
 
         webview =(WebView)findViewById(R.id.webMD);
 
-        webview.setWebViewClient(new WebViewClient());
+        webview.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onLoadResource(WebView view, String url) {
+                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('share-mobile')[0].style.display='none'; " + "})()");
+                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('help-mobile')[0].style.display='none'; " + "})()");
+                webview.loadUrl("javascript:(function() { " + "var head = document.getElementsByClassName('login-mobile')[0].style.display='none'; " + "})()");
+                }
+            }
+        );
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setDomStorageEnabled(true);
         webview.setOverScrollMode(WebView.OVER_SCROLL_NEVER);

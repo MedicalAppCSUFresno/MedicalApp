@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "966426665472",
+    "firebase_url": "https://medicalapp-23670.firebaseio.com",
+    "project_id": "medicalapp-23670",
+    "storage_bucket": "medicalapp-23670.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966426665472:android:02e23ef01f0b4a3b",
+        "android_client_info": {
+          "package_name": "edu.fresnostate.mail.getthatcheckedout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966426665472-7qfd340kcsgvfe7ms5lvlajih9iafaod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtYsEmQT_y-fHugVKp0h7PhaoJ1IbdroI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
