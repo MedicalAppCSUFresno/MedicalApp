@@ -65,4 +65,20 @@ public class DataParser {
         return placesList;
 
     }
+
+    public List<HashMap<String, String>> parse(String jsonData)
+    {
+        JSONArray jsonArray = null;
+        JSONObject jsonObject;
+
+        try {
+            jsonObject = new JSONObject(jsonData);
+            jsonArray = jsonObject.getJSONArray("results");
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return getPlaces(jsonArray);
+    }
 }
