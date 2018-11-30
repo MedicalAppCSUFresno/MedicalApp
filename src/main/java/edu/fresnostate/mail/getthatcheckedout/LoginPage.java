@@ -97,6 +97,7 @@ public class LoginPage extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+
                 String email = emailtxt.getText().toString().trim();
                 String password = passwordtxt.getText().toString().trim();
 
@@ -105,7 +106,7 @@ public class LoginPage extends AppCompatActivity {
                 }
 
                 if(TextUtils.isEmpty(password)){
-                    Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Enter password!", Toast.LENGTH_SHORT).show();
                 }
 
                 if (password.length() < 6) {
@@ -125,7 +126,7 @@ public class LoginPage extends AppCompatActivity {
                                     Toast.makeText(LoginPage.this, "Authentication failed." + task.getException(),
                                             Toast.LENGTH_SHORT).show();
                                 } else {
-                                    startActivity(new Intent(LoginPage.this, ProfilePage1.class));
+                                    startActivity(new Intent(LoginPage.this, RegisterUserForm.class));
                                     finish();
                                 }
                             }

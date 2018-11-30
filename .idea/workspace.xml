@@ -15,23 +15,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cafec68-3ee4-40a9-88d8-95127895274b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/res/font/anton.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/RegisterUserForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_personal_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register_user_form.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/edu/fresnostate/mail/getthatcheckedout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/edu/fresnostate/mail/getthatcheckedout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/DoctorFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/DoctorFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/preloaded_fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -95,11 +93,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java">
+      <file leaf-file-name="PersonalProfile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="168">
+              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,77 +105,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfilePage1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java">
+      <file leaf-file-name="activity_register_user_form.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_user_form.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="278" column="40" selection-start-line="278" selection-start-column="40" selection-end-line="278" selection-end-column="40" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="96" column="2" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
+            <state relative-caret-position="607">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_profile_page1.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml">
+      <file leaf-file-name="activity_personal_profile.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_personal_profile.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="338" selection-end-line="338" />
+            </state>
+          </provider>
           <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="3315">
-              <caret line="199" selection-start-line="199" selection-end-line="199" />
-            </state>
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_reset_password.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_reset_password.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_login_page.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="2295">
-              <caret line="135" column="6" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SymptomChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java">
+      <file leaf-file-name="RegisterUserForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/RegisterUserForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="-84">
+              <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -185,7 +153,7 @@
       <file leaf-file-name="DoctorFinder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/DoctorFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state />
+            <state relative-caret-position="-612" />
           </provider>
         </entry>
       </file>
@@ -214,6 +182,7 @@
       <find>HealthItem</find>
       <find>locId</find>
       <find>syste</find>
+      <find>ProfilePage1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2562,32 +2531,36 @@
         <option value="$PROJECT_DIR$/src/main/assets/config.properties" />
         <option value="$PROJECT_DIR$/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_doc_search.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PillID.java" />
         <option value="$PROJECT_DIR$/src/main/java/Priaid/Diagnosis/Client/DiagnosisClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_pill_id.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_symptom_checker.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ResetPassword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_reset_password.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/DoctorFinder.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java" />
         <option value="$PROJECT_DIR$/../build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/themes.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_register_user_form.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/RegisterUserForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_personal_profile.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
-    <option name="y" value="5" />
-    <option name="width" value="1865" />
-    <option name="height" value="1039" />
+    <option name="x" value="105" />
+    <option name="width" value="1773" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -2595,6 +2568,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="getthatcheckedout" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -2612,22 +2623,6 @@
               <item name="app" type="616d4139:PackageViewModuleNode" />
               <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
               <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -2662,23 +2657,22 @@
     <property name="DEBUGGABLE_PROCESS" value="edu.fresnostate.mail.getthatcheckedout" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/muckm/AndroidStudioProjects/app/build.gradle&#10;unirest&#9;PSI&#9;JAVA://com.mashape.unirest.http.Unirest&#10;AllowAllHostnameVerifier&#9;PSI&#9;JAVA://org.apache.http.conn.ssl.SSLConnectionSocketFactory#ALLOW_ALL_HOSTNAME_VERIFIER&#10;org.ap&#9;FILE&#9;jar://C:/Users/muckm/AndroidStudioProjects/app/libs/httpclient-4.5.1.jar!/META-INF/maven/org.apache.httpcomponents" />
+    <property name="SearchEverywhereHistoryKey" value="planets_array&#9;null&#9;null&#10;unirest&#9;PSI&#9;JAVA://com.mashape.unirest.http.Unirest&#10;AllowAllHostnameVerifier&#9;PSI&#9;JAVA://org.apache.http.conn.ssl.SSLConnectionSocketFactory#ALLOW_ALL_HOSTNAME_VERIFIER&#10;org.ap&#9;FILE&#9;jar://C:/Users/muckm/AndroidStudioProjects/app/libs/httpclient-4.5.1.jar!/META-INF/maven/org.apache.httpcomponents" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="Nexus_5X_API_28" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/debug/res" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/BetterDoctor-master/BetterDoctor-master" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\muckm\AndroidStudioProjects\app" />
-      <recent name="C:\Users\muckm\AndroidStudioProjects" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\muckm\AndroidStudioProjects\app\libs" />
-      <recent name="C:\Users\muckm\AndroidStudioProjects\app\src\main" />
-      <recent name="C:\Users\muckm\AndroidStudioProjects\app\src\main\java\edu\fresnostate\mail\getthatcheckedout" />
+      <recent name="C:\Users\muckm\AndroidStudioProjects\app\src\assets" />
+      <recent name="C:\Users\muckm\AndroidStudioProjects\app\build\generated\not_namespaced_r_class_sources\debug\processDebugResources\r\android" />
+      <recent name="C:\Users\muckm\AndroidStudioProjects\app\src" />
     </key>
     <key name="android.template.packageName">
       <recent name="edu.fresnostate.mail.getthatcheckedout" />
@@ -2686,11 +2680,12 @@
     <key name="android.template.parentActivityClass">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\muckm\AndroidStudioProjects\app" />
+      <recent name="C:\Users\muckm\AndroidStudioProjects" />
       <recent name="C:\Users\muckm\AndroidStudioProjects\app\libs" />
-      <recent name="C:\Users\muckm\AndroidStudioProjects\app\src\assets" />
-      <recent name="C:\Users\muckm\AndroidStudioProjects\app\build\generated\not_namespaced_r_class_sources\debug\processDebugResources\r\android" />
-      <recent name="C:\Users\muckm\AndroidStudioProjects\app\src" />
+      <recent name="C:\Users\muckm\AndroidStudioProjects\app\src\main" />
+      <recent name="C:\Users\muckm\AndroidStudioProjects\app\src\main\java\edu\fresnostate\mail\getthatcheckedout" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2872,20 +2867,28 @@
       <option name="project" value="LOCAL" />
       <updated>1543185115636</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;Update Layout and Constraints&quot;">
+      <created>1543439185324</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543439185324</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="4" width="1492" height="831" extended-state="0" />
+    <frame x="84" y="0" width="1418" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="12" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="7" />
       <window_info id="Build Variants" order="3" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.17486338" side_tool="true" weight="0.3809524" />
+      <window_info anchor="right" id="Preview" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769938" weight="0.32952926" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4945355" weight="0.16" />
@@ -2893,15 +2896,14 @@
       <window_info id="Captures" order="4" weight="0.24942966" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22625698" />
-      <window_info anchor="bottom" id="Build" order="9" sideWeight="0.8251366" visible="true" weight="0.16547789" />
-      <window_info anchor="right" id="Gradle" order="8" weight="0.32697546" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17525773" />
+      <window_info anchor="bottom" id="Build" order="9" sideWeight="0.8251366" weight="0.45726496" />
+      <window_info anchor="right" id="Gradle" order="9" weight="0.32681563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.68442625" weight="0.3257143" />
+      <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.68442625" visible="true" weight="0.37321937" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" id="Preview" order="6" />
       <window_info anchor="bottom" id="Dependency Viewer" order="13" sideWeight="0.49931693" weight="0.32900432" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.4986339" weight="0.32756132" />
@@ -2914,7 +2916,7 @@
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49824807" weight="0.2907489" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" anchor="bottom" id="Build" order="9" sideWeight="0.8251366" visible="true" weight="0.15714286" />
+      <window_info active="true" anchor="bottom" id="Build" order="9" sideWeight="0.8251366" visible="true" weight="0.13390313" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="7" />
@@ -2931,22 +2933,22 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.17486338" side_tool="true" weight="0.3809524" />
       <window_info anchor="right" id="Preview" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49824807" weight="0.2907489" />
       <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
       <window_info anchor="right" id="Assistant" order="3" weight="0.24761905" />
       <window_info anchor="bottom" id="Logcat" order="10" />
       <window_info anchor="bottom" id="Dependency Viewer" order="14" sideWeight="0.49931693" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4945355" weight="0.23088023" />
-      <window_info anchor="right" id="Gradle" order="9" weight="0.32697546" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2641196" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4945355" weight="0.16" />
+      <window_info anchor="right" id="Gradle" order="9" weight="0.32681563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17527933" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49824807" weight="0.2907489" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.68442625" weight="0.3257143" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.68442625" weight="0.13247864" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2960,105 +2962,15 @@
     <MESSAGE value="&quot;Reset working and skip button&quot;" />
     <MESSAGE value="&quot;New Logo&quot;" />
     <MESSAGE value="&quot;Update&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Update&quot;" />
+    <MESSAGE value="&quot;Update Layout and Constraints&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Update Layout and Constraints&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="42" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonDoubleCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonInt32Codec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonInt64Codec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonDecimal128Codec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonMinKeyCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonMaxKeyCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonJavaScriptCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonObjectIdCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonRegularExpressionCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonStringCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonSymbolCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonTimestampCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/BsonUndefinedCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.0/e24cbc9178d81721e0db99a8d74e59f63655d024/bson-3.9.0-sources.jar!/org/bson/codecs/configuration/CodecRegistries.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -3195,40 +3107,33 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_pill_id.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_symptom_checker.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_symptom_checker.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PillID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="15" column="23" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3241,22 +3146,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_reset_password.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1785">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/DoctorFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="26090" column="13" selection-start-line="26090" selection-start-column="13" selection-end-line="26090" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java">
@@ -3269,62 +3193,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="359">
+          <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/themes.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="63" column="11" lean-forward="true" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="135" column="6" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="969">
+          <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1651#1897#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#2887#4005#0" expanded="true" />
+            <element signature="e#4004#4005#0" expanded="true" />
+            <element signature="e#4069#6190#0" expanded="true" />
+            <element signature="e#5051#6173#0" expanded="true" />
+            <element signature="e#6172#6173#0" expanded="true" />
+            <element signature="e#6189#6190#0" expanded="true" />
+            <element signature="e#6244#6245#0" expanded="true" />
+            <element signature="e#6276#6277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/preloaded_fonts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/debug/res/values/google_maps_api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/font_certs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/DoctorFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/RegisterUserForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="26090" column="13" selection-start-line="26090" selection-start-column="13" selection-end-line="26090" selection-end-column="13" />
+        <state relative-caret-position="607">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="96" column="2" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_user_form.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="278" column="40" selection-start-line="278" selection-start-column="40" selection-end-line="278" selection-end-column="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="135" column="6" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_personal_profile.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="338" selection-end-line="338" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="3315">
-          <caret line="199" selection-start-line="199" selection-end-line="199" />
-        </state>
       </provider>
     </entry>
   </component>
