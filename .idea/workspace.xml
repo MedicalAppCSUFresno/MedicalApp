@@ -15,21 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cafec68-3ee4-40a9-88d8-95127895274b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/RegisterUserForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_personal_profile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register_user_form.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+              <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_personal_profile.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_personal_profile.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_personal_profile.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="349">
@@ -154,6 +142,18 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/DoctorFinder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-612" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_login_page.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="102" column="45" lean-forward="true" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -2545,15 +2545,15 @@
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java" />
         <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/src/main/res/values/themes.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_register_user_form.xml" />
         <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/RegisterUserForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_personal_profile.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml" />
       </list>
     </option>
   </component>
@@ -2874,7 +2874,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543439185324</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;Update Layout and Constraints&quot;">
+      <created>1543538251271</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543538251271</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2888,7 +2895,7 @@
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.17486338" side_tool="true" weight="0.3809524" />
-      <window_info anchor="right" id="Preview" order="7" />
+      <window_info active="true" anchor="right" id="Preview" order="7" visible="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769938" weight="0.32952926" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4945355" weight="0.16" />
@@ -2902,7 +2909,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.68442625" visible="true" weight="0.37321937" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.68442625" visible="true" weight="0.0" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="13" sideWeight="0.49931693" weight="0.32900432" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -3227,16 +3234,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="135" column="6" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -3309,13 +3306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_user_form.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -3329,10 +3319,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+          <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -3343,6 +3340,16 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_login_page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="102" column="45" lean-forward="true" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>

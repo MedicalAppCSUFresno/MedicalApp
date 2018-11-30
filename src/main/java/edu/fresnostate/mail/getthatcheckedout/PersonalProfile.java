@@ -53,7 +53,7 @@ public class PersonalProfile extends AppCompatActivity {
         pDadded = findViewById(R.id.dob);
 
         Date todayDate = Calendar.getInstance().getTime();
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-mm-dd");
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         String todayString = formatter.format(todayDate);
 
         pDadded.setText(todayString);
