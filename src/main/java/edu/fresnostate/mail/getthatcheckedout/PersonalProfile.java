@@ -47,8 +47,8 @@ public class PersonalProfile extends AppCompatActivity {
         pPhone = findViewById(R.id.mobileNumber);
         pMarital = findViewById(R.id.marriage);
         pEmail = findViewById(R.id.email);
-        pName = findViewById(R.id.name);
-        pUsername = findViewById(R.id.designation);
+        pName = findViewById(R.id.designation);
+        pUsername = findViewById(R.id.name);
         pGender = findViewById(R.id.gender);
         pDadded = findViewById(R.id.dob);
 

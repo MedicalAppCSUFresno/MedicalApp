@@ -106,7 +106,8 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="30dp"
             android:gravity="center_vertical"
-            android:text="Name"
+            android:text="First Name, Last Name"
+            android:textSize="12sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView17" />
 

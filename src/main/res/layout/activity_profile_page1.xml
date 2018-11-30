@@ -1,204 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/doc"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="20dp"
-        android:adjustViewBounds="true"
-        android:background="@android:color/transparent"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/icondoc"
-        app:layout_constraintBottom_toTopOf="@+id/drFindTextView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
 
-    <ImageButton
-        android:id="@+id/pillbottle"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="123dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
-        android:adjustViewBounds="true"
-        android:background="@android:color/transparent"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/iconpillbottle"
-        app:layout_constraintBottom_toTopOf="@+id/pillIDTextView2"
-        app:layout_constraintEnd_toStartOf="@+id/rx"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/monitor"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginLeft="47dp"
-        android:layout_marginTop="123dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:adjustViewBounds="true"
-        android:background="@android:color/transparent"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/iconpulse"
-        app:layout_constraintBottom_toTopOf="@+id/medRemindTextView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/rx"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        <ImageButton
+            android:id="@+id/doc"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icondoc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <ImageButton
-        android:id="@+id/rx"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="13dp"
-        android:adjustViewBounds="true"
-        android:background="@android:color/transparent"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/iconsnake"
-        app:layout_constraintBottom_toTopOf="@+id/profileTextView5"
-        app:layout_constraintEnd_toStartOf="@+id/monitor"
-        app:layout_constraintStart_toEndOf="@+id/pillbottle"
-        app:layout_constraintTop_toBottomOf="@+id/drFindTextView6" />
+        <ImageButton
+            android:id="@+id/pillbottle"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="131dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/iconpillbottle"
+            app:layout_constraintEnd_toStartOf="@+id/rx"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <ImageButton
-        android:id="@+id/steth"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="155dp"
-        android:layout_marginLeft="155dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginRight="33dp"
-        android:adjustViewBounds="true"
-        android:background="@android:color/transparent"
-        android:padding="5dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/iconsteth"
-        app:layout_constraintBottom_toTopOf="@+id/symCheckTextView"
-        app:layout_constraintEnd_toStartOf="@+id/medRemindTextView4"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profileTextView5" />
+        <ImageButton
+            android:id="@+id/monitor"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="131dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/iconpulse"
+            app:layout_constraintStart_toEndOf="@+id/rx"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="119dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@android:color/darker_gray"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.279" />
+        <ImageButton
+            android:id="@+id/rx"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="24dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/iconsnake"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drFindTextView6" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="321dp"
-        android:layout_height="136dp"
-        android:layout_marginTop="32dp"
-        android:src="@drawable/getthatcheckedoutpic"
-        app:layout_constraintBottom_toTopOf="@+id/doc"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/steth"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="22dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/iconsteth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileTextView5" />
 
-    <TextView
-        android:id="@+id/symCheckTextView"
-        android:layout_width="162dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="111dp"
-        android:layout_marginLeft="111dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="111dp"
-        android:layout_marginRight="111dp"
-        android:layout_marginBottom="12dp"
-        android:gravity="center"
-        android:text="Symptom Checker"
-        app:fontFamily="@font/anton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/steth" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="119dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/pillIDTextView2"
-        android:layout_width="75dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
-        android:layout_marginBottom="117dp"
-        android:gravity="center"
-        android:text="Pill ID"
-        app:fontFamily="@font/anton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/profileTextView5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pillbottle" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="321dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/getthatcheckedoutpic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/profileTextView5"
-        android:layout_width="75dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginRight="33dp"
-        android:gravity="center"
-        android:text="Profile"
-        app:fontFamily="@font/anton"
-        app:layout_constraintBottom_toTopOf="@+id/steth"
-        app:layout_constraintEnd_toStartOf="@+id/medRemindTextView4"
-        app:layout_constraintStart_toEndOf="@+id/pillbottle"
-        app:layout_constraintTop_toBottomOf="@+id/rx" />
+        <TextView
+            android:id="@+id/symCheckTextView"
+            android:layout_width="162dp"
+            android:layout_height="26dp"
+            android:gravity="center"
+            android:text="Symptom Checker"
+            app:fontFamily="@font/anton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/steth" />
 
-    <TextView
-        android:id="@+id/drFindTextView6"
-        android:layout_width="75dp"
-        android:layout_height="24dp"
-        android:gravity="center"
-        android:text="Dr. Finder"
-        app:fontFamily="@font/anton"
-        app:layout_constraintBottom_toTopOf="@+id/rx"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/doc" />
+        <TextView
+            android:id="@+id/pillIDTextView2"
+            android:layout_width="75dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:gravity="center"
+            android:text="Pill ID"
+            app:fontFamily="@font/anton"
+            app:layout_constraintEnd_toStartOf="@+id/profileTextView5"
+            app:layout_constraintTop_toBottomOf="@+id/pillbottle" />
 
-    <TextView
-        android:id="@+id/medRemindTextView4"
-        android:layout_width="105dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="67dp"
-        android:gravity="center"
-        android:text="Medication Reminder"
-        app:fontFamily="@font/anton"
-        app:layout_constraintBottom_toTopOf="@+id/symCheckTextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/steth"
-        app:layout_constraintTop_toBottomOf="@+id/monitor" />
+        <TextView
+            android:id="@+id/profileTextView5"
+            android:layout_width="75dp"
+            android:layout_height="24dp"
+            android:gravity="center"
+            android:text="Profile"
+            app:fontFamily="@font/anton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="350dp" />
+
+        <TextView
+            android:id="@+id/drFindTextView6"
+            android:layout_width="75dp"
+            android:layout_height="24dp"
+            android:gravity="center"
+            android:text="Dr. Finder"
+            app:fontFamily="@font/anton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/doc" />
+
+        <TextView
+            android:id="@+id/medRemindTextView4"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:gravity="center"
+            android:text="Medication Reminder"
+            app:fontFamily="@font/anton"
+            app:layout_constraintStart_toEndOf="@+id/profileTextView5"
+            app:layout_constraintTop_toBottomOf="@+id/monitor" />
 
 
-</android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
