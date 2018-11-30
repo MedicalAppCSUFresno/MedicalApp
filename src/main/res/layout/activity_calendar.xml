@@ -13,12 +13,12 @@
         android:id="@+id/myDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/calendar_for_you"
-        android:textColor="#FFF"
-        android:textSize="23sp"
+        android:layout_marginStart="110dp"
         android:layout_marginLeft="110dp"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="110dp" />
+        android:text="@string/calendar_for_you"
+        android:textColor="#FFF"
+        android:textSize="23sp" />
 
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -38,22 +38,51 @@
     <Button
         android:background="@drawable/bg_calenbtn1"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:text="@string/save_appointment"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp" />
+        android:layout_marginStart="100dp"
+        android:minHeight="25dp"
+        android:minWidth="25dp"/>
     <Button
         android:background="@drawable/bg_calenbtn2"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:text="@string/save_pill_reminder"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp" />
+        android:layout_marginStart="100dp"
+        android:minHeight="25dp"
+        android:minWidth="25dp"/>
+
+    <Button
+        android:background="@drawable/bg_calenbtn3"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/save_pill_refill"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:minHeight="25dp"
+        android:minWidth="25dp" />
+    <Button
+        android:background="@drawable/bg_calenbtn4"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/return_home"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:minHeight="25dp"
+        android:minWidth="25dp"/>
 
 </LinearLayout>
