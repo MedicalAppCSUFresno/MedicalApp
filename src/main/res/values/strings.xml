@@ -19,5 +19,7 @@
         completions."
     </string>
     <string name="calendar_for_you">Calendar for You</string>
+    <string name="save_appointment">Save My Appointment</string>
+    <string name="save_pill_reminder">Save My Pill Reminder</string>
 
 </resources>
