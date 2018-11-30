@@ -16,9 +16,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5cafec68-3ee4-40a9-88d8-95127895274b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register_user_form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register_user_form.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_profile_page1.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_profile_page1.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="207">
@@ -118,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+            <state relative-caret-position="1133">
+              <caret line="119" column="77" selection-start-line="119" selection-start-column="77" selection-end-line="119" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2887#4005#0" expanded="true" />
@@ -2563,7 +2562,6 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/SymptomChecker.java" />
         <option value="$PROJECT_DIR$/../build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/ProfilePage1.java" />
         <option value="$PROJECT_DIR$/src/main/res/values/themes.xml" />
         <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
@@ -2574,6 +2572,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/PersonalProfile.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_personal_profile.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_profile_page1.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -2908,7 +2907,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543539313553</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix Constraints">
+      <created>1543561783016</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1543561783016</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2930,7 +2936,7 @@
       <window_info id="Captures" order="4" weight="0.24942966" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17525773" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17525773" />
       <window_info anchor="bottom" id="Build" order="9" sideWeight="0.8251366" weight="0.45726496" />
       <window_info anchor="right" id="Gradle" order="9" weight="0.32681563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -2998,7 +3004,8 @@
     <MESSAGE value="&quot;Update&quot;" />
     <MESSAGE value="&quot;Update Layout and Constraints&quot;" />
     <MESSAGE value="&quot;Added profile user page and registration form&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Added profile user page and registration form&quot;" />
+    <MESSAGE value="Fix Constraints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Constraints" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3306,18 +3313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2887#4005#0" expanded="true" />
-            <element signature="e#4004#4005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/DoctorFinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612" />
@@ -3371,6 +3366,18 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fresnostate/mail/getthatcheckedout/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1133">
+          <caret line="119" column="77" selection-start-line="119" selection-start-column="77" selection-end-line="119" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2887#4005#0" expanded="true" />
+            <element signature="e#4004#4005#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

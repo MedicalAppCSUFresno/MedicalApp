@@ -14,7 +14,7 @@
             android:id="@+id/doc"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="24dp"
             android:adjustViewBounds="true"
             android:background="@android:color/transparent"
             android:padding="5dp"
@@ -29,7 +29,7 @@
             android:id="@+id/pillbottle"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_marginTop="131dp"
+            android:layout_marginTop="26dp"
             android:layout_marginEnd="56dp"
             android:layout_marginRight="56dp"
             android:adjustViewBounds="true"
@@ -38,7 +38,7 @@
             android:scaleType="fitCenter"
             android:src="@drawable/iconpillbottle"
             app:layout_constraintEnd_toStartOf="@+id/rx"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            app:layout_constraintTop_toBottomOf="@+id/drFindTextView6" />
 
         <ImageButton
             android:id="@+id/monitor"
@@ -46,14 +46,14 @@
             android:layout_height="75dp"
             android:layout_marginStart="55dp"
             android:layout_marginLeft="55dp"
-            android:layout_marginTop="131dp"
+            android:layout_marginTop="24dp"
             android:adjustViewBounds="true"
             android:background="@android:color/transparent"
             android:padding="5dp"
             android:scaleType="fitCenter"
             android:src="@drawable/iconpulse"
             app:layout_constraintStart_toEndOf="@+id/rx"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            app:layout_constraintTop_toBottomOf="@+id/drFindTextView6" />
 
         <ImageButton
             android:id="@+id/rx"
@@ -89,7 +89,7 @@
             android:id="@+id/textView"
             android:layout_width="119dp"
             android:layout_height="66dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="45dp"
             android:background="@android:color/darker_gray"
             app:layout_constraintEnd_toStartOf="@+id/imageView"
             app:layout_constraintHorizontal_bias="0.5"
@@ -100,7 +100,7 @@
             android:id="@+id/imageView"
             android:layout_width="321dp"
             android:layout_height="136dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="45dp"
             android:src="@drawable/getthatcheckedoutpic"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -141,7 +141,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="350dp" />
+            app:layout_constraintTop_toBottomOf="@+id/rx" />
 
         <TextView
             android:id="@+id/drFindTextView6"
