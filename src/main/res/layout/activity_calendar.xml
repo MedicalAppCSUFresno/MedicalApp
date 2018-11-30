@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
     tools:context=".CalendarActivity">
 
     <TextView
@@ -14,6 +15,13 @@
         android:layout_height="wrap_content"
         android:text="@string/calendar_for_you"
         android:textColor="#FFF"
-        android:textSize="23sp" />
+        android:textSize="23sp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
 
 </LinearLayout>
