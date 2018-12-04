@@ -1,13 +1,17 @@
 package edu.fresnostate.mail.getthatcheckedout;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.TextView;
 
 public class CalendarActivity extends AppCompatActivity {
 
+    private Button returnHome;
     CalendarView calendarView;
     TextView myDate;
 
@@ -27,5 +31,18 @@ public class CalendarActivity extends AppCompatActivity {
                 myDate.setText(date);
             }
         });
+
+        returnHome = (Button) findViewById(R.id.returnHome);
+        returnHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                returnHomePage();
+            }
+        });
+    }
+
+    public void returnHomePage() {
+        Intent intent = new Intent(this, ProfilePage1.class);
+        startActivity(intent);
     }
 }

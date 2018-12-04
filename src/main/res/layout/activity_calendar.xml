@@ -13,7 +13,7 @@
         android:id="@+id/myDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
+        android:layout_marginLeft="110dp"
         android:layout_marginTop="5dp"
         android:textSize="30dp"
         android:textColor="#FFF"
@@ -41,7 +41,7 @@
         <CalendarView
             android:id="@+id/calendarView"
             android:layout_width="wrap_content"
-            android:layout_height="320dp">
+            android:layout_height="340dp">
 
         </CalendarView>
     </LinearLayout>
@@ -84,6 +84,7 @@
         android:minHeight="25dp"
         android:minWidth="25dp" />
     <Button
+        android:id="@+id/returnHome"
         android:background="@drawable/bg_calenbtn4"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="10dp"
