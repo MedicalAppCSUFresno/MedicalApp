@@ -24,5 +24,9 @@
     <string name="save_pill_refill">Save My Pill Refill</string>
     <string name="return_home">Return Home</string>
     <string name="selected_date">Selected Date</string>
+    <string name="dont_forget">Don't forget to take pill:</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="return_calendar">Return to Calendar</string>
 
 </resources>

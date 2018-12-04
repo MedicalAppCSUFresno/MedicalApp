@@ -57,7 +57,8 @@
         <activity android:name=".SymptomChecker" />
         <activity android:name=".PillID" />
         <activity android:name=".ResetPassword" />
-        <activity android:name=".CalendarActivity"></activity>
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".AlarmActivity"></activity>
     </application>
 
 </manifest>
