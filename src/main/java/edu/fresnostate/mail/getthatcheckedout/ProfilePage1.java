@@ -44,7 +44,7 @@ public class ProfilePage1 extends Activity {
         rxBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(ProfilePage1.this, DoctorFinder.class);
+                Intent startIntent = new Intent(ProfilePage1.this, CalendarActivity.class);
                 startActivity(startIntent);
             }
         });
