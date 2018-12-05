@@ -18,5 +18,27 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="bloodtype_array">
+        <item>Most Rare: AB-</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>O-</item>
+        <item>B+</item>
+        <item>A-</item>
+        <item>Most Common: O+</item>
+    </string-array>
+    <string-array name="marital_array">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Compicated</item>
+        <item>Other</item>>
+    </string-array>
+
 
 </resources>

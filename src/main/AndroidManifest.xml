@@ -56,7 +56,9 @@
             android:label="@string/title_activity_doctor_finder" />
         <activity android:name=".SymptomChecker" />
         <activity android:name=".PillID" />
-        <activity android:name=".ResetPassword"></activity>
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".PersonalProfile" />
+        <activity android:name=".RegisterUserForm"></activity>
     </application>
 
 </manifest>
