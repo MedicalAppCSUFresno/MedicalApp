@@ -6,7 +6,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -14,38 +13,74 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="525dp"
-        tools:context=".DoctorLocator"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        tools:context=".DoctorLocator" />
 
     <EditText
         android:id="@+id/TF_location"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/map"
+        android:layout_width="423dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="-9dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toStartOf="@+id/Search"
+        android:layout_toLeftOf="@+id/Search"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/seach_local_medical_facilities"
         android:inputType="textPersonName"
-        android:autofillHints="" tools:targetApi="o" />
+        tools:targetApi="o" />
 
     <Button
         android:id="@+id/Search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginTop="0dp"
-        android:layout_toEndOf="@+id/TF_location"
-        android:layout_toRightOf="@+id/TF_location"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_toStartOf="@+id/I_Search"
+        android:layout_toLeftOf="@+id/I_Search"
         android:onClick="onClick"
         android:text="@string/search" />
+
+    <Button
+        android:id="@+id/Doctors"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClick"
+        android:text="Doctors" />
+
+    <Button
+        android:id="@+id/hospital"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/Doctors"
+        android:layout_toRightOf="@+id/Doctors"
+        android:onClick="onClick"
+        android:text="Hospital" />
 
     <ImageButton
         android:id="@+id/I_Search"
@@ -54,9 +89,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:background="@color/colorAccent"
+        android:contentDescription="@string/todo"
         android:onClick="onClick"
-        android:src="?android:attr/homeAsUpIndicator"
-        android:contentDescription="@string/todo" />
+        android:src="?android:attr/homeAsUpIndicator" />
 
 </RelativeLayout>
