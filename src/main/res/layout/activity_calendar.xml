@@ -54,6 +54,7 @@
         android:minHeight="25dp"
         android:minWidth="25dp"/>
     <Button
+        android:id="@+id/pillReminder"
         android:background="@drawable/bg_calenbtn2"
         android:layout_marginTop="10dp"
         android:text="@string/save_pill_reminder"

@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:text="@string/dont_forget"
         android:layout_marginTop="5dp"
-        android:textColor="#000"
+        android:textColor="#000000"
         android:textSize="23sp"
         />
 
@@ -53,6 +53,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/returnCalen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/return_calendar"/>

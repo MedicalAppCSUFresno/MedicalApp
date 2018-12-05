@@ -12,6 +12,7 @@ import android.widget.TextView;
 public class CalendarActivity extends AppCompatActivity {
 
     private Button returnHome;
+    private Button pillReminder;
     CalendarView calendarView;
     TextView myDate;
 
@@ -37,6 +38,15 @@ public class CalendarActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 returnHomePage();
+            }
+        });
+
+        pillReminder = (Button) findViewById(R.id.pillReminder);
+        pillReminder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(CalendarActivity.this, AlarmActivity.class);
+                startActivity(startIntent);
             }
         });
     }
