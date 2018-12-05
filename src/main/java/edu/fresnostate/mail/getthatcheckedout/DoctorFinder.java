@@ -51,6 +51,8 @@ public class DoctorFinder extends FragmentActivity implements OnMapReadyCallback
     public Location lastLocation;
     private Marker currentLocationMarker;
     public static final int REQUEST_LOCATION_CODE = 99;
+    int PROXIMITY_RADIUS = 10000;
+    double latitude, longitude;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -139,6 +141,8 @@ public class DoctorFinder extends FragmentActivity implements OnMapReadyCallback
 
     public void onClick(View v)
     {
+        Object dataTransfer[] = new Object[2];
+        GetNearbyPlacesData getNearbyPlacesData = new GetNearbyPlacesData();
         if (v.getId() == R.id.Search)
         {
             EditText tf_location = (EditText)findViewById(R.id.TF_location);
@@ -167,16 +171,38 @@ public class DoctorFinder extends FragmentActivity implements OnMapReadyCallback
             }
         }
 
+        if(v.getId() == R.id.B_hospitals)
+        {
+            mMap.clear();
+            String hospital = "hospital";
+            String url = getUrl(latitude, longitude, hospital);
+
+            dataTransfer[0] = mMap;
+            dataTransfer[1] = url;
+
+            getNearbyPlacesData.execute(dataTransfer);
+            Toast.makeText(DoctorFinder.this, "Showing Nearby Hospitals", Toast.LENGTH_LONG).show();
+        }
+
         if(v.getId() == R.id.I_Search)
         {
-            ImageButton backbtn = (ImageButton)findViewById(R.id.I_Search);
-
-            Intent startIntent = new Intent(DoctorFinder.this, LoginPage.class);
+            Intent startIntent = new Intent(DoctorFinder.this, ProfilePage1.class);
             startActivity(startIntent);
 
         }
     }
 
+    private String getUrl(double latitude, double longitude, String nearbyPlace)
+    {
+        StringBuilder googlePlaceUrl = new StringBuilder("https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
+        googlePlaceUrl.append("&location="+latitude+","+longitude);
+        googlePlaceUrl.append("&radius="+PROXIMITY_RADIUS);
+        googlePlaceUrl.append("&type="+nearbyPlace);
+        googlePlaceUrl.append("&sensor=true");
+        googlePlaceUrl.append("&key="+"AIzaSyCZPOUOkoI3GeBkCCOPTIYulIee8jcKJBM");
+
+        return googlePlaceUrl.toString();
+    }
 
 
     @Override

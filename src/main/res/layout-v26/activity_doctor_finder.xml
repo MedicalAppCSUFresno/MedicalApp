@@ -47,6 +47,19 @@
         android:onClick="onClick"
         android:text="@string/search" />
 
+    <Button
+        android:id="@+id/B_hospitals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-250dp"
+        android:layout_marginLeft="-250dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/TF_location"
+        android:layout_toRightOf="@+id/TF_location"
+        android:onClick="onClick"
+        android:text="Hospitals" />
+
     <ImageButton
         android:id="@+id/I_Search"
         android:layout_width="43dp"
