@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\phill\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\bf7c5739e40b980600c1e7cf4f0ed418\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\phill\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\49166e93d9b83beae81557037b14e347\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\phill\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\020fd10ed83f08f542ca357437f7b184\AndroidManifest.xml:2:1-11:12
@@ -63,20 +63,20 @@ MERGED from [com.android.support:print:28.0.0] C:\Users\phill\.gradle\caches\tra
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\phill\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e162c5599a001739fa8130a3937083f0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\phill\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\e246027c440a89ed007720442b75c984\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\phill\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\54b6c606397d25f455bdba17142b51ed\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:3:5-53
 		INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-62:12
+		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-62:12
+		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:2:11-69
@@ -137,7 +137,7 @@ ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\ma
 	android:name
 		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:19:22-69
 application
-ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:21:5-60:19
+ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:21:5-62:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\phill\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\bf7c5739e40b980600c1e7cf4f0ed418\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\phill\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\bf7c5739e40b980600c1e7cf4f0ed418\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\phill\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\020fd10ed83f08f542ca357437f7b184\AndroidManifest.xml:9:5-20
@@ -259,9 +259,17 @@ ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\ma
 	android:name
 		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:58:19-41
 activity#edu.fresnostate.mail.getthatcheckedout.ResetPassword
-ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:59:9-60
+ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:59:9-51
 	android:name
 		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:59:19-48
+activity#edu.fresnostate.mail.getthatcheckedout.MedRemind
+ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:60:9-47
+	android:name
+		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:60:19-44
+activity#edu.fresnostate.mail.getthatcheckedout.AddMedRemind
+ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:61:9-59
+	android:name
+		ADDED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml:61:19-47
 uses-sdk
 INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\phill\AndroidStudioProjects\AndroidStudioProjects\app\src\main\AndroidManifest.xml

@@ -1146,6 +1146,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
+id button3
 id buttonPanel
 id cancel_action
 id center
@@ -1175,8 +1177,11 @@ id dimensions
 id direct
 id disableHome
 id doc
+id editText
+id editText2
+id editText3
+id editText4
 id edit_query
-id email
 id end
 id end_padder
 id enterAlways
@@ -1189,6 +1194,7 @@ id fill_horizontal
 id fill_vertical
 id filled
 id fixed
+id floatingActionButton2
 id forever
 id ghost_view
 id gone
@@ -1217,7 +1223,6 @@ id line1
 id line3
 id listMode
 id list_item
-id loginButton
 id map
 id masked
 id media_actions
@@ -1232,7 +1237,6 @@ id multiply
 id navigation_header_container
 id needle
 id never
-id newUser
 id none
 id normal
 id notification_background
@@ -1245,20 +1249,22 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
-id password
 id percent
 id pillbottle
 id pin
 id progress_circular
 id progress_horizontal
 id radio
+id radioButton
+id radioButton2
+id radioGroup
 id resetButton
 id resetEmail
-id resetPass
 id right
 id right_icon
 id right_side
 id rx
+id sampleTex
 id satellite
 id save_image_matrix
 id save_non_transition_alpha
@@ -1286,6 +1292,7 @@ id showCustom
 id showHome
 id showTitle
 id skip
+id skip2
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1316,6 +1323,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1391,8 +1399,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_med_remind
 layout activity_doctor_finder
 layout activity_login_page
+layout activity_med_remind
 layout activity_pill_id
 layout activity_profile_page1
 layout activity_reset_password
