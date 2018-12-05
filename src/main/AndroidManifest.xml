@@ -59,6 +59,10 @@
         <activity android:name=".ResetPassword" />
         <activity android:name=".PersonalProfile" />
         <activity android:name=".RegisterUserForm"></activity>
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".AlarmActivity"></activity>
+        <receiver android:name=".AlarmReceiver" />
     </application>
 
 </manifest>

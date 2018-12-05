@@ -40,5 +40,15 @@
         <item>Other</item>>
     </string-array>
 
+    <string name="calendar_for_you">Calendar for You</string>
+    <string name="save_appointment">Save My Appointment</string>
+    <string name="save_pill_reminder">Save My Pill Reminder</string>
+    <string name="save_pill_refill">Save My Pill Refill</string>
+    <string name="return_home">Return Home</string>
+    <string name="selected_date">Selected Date</string>
+    <string name="dont_forget">Remember to take pill:</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="return_calendar">Return to Calendar</string>
 
 </resources>
