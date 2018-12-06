@@ -105,6 +105,7 @@ public class RegisterUserForm extends AppCompatActivity {
 
                 Intent startIntent = new Intent(RegisterUserForm.this, ProfilePage1.class);
                 startActivity(startIntent);
+                RegisterUserForm.this.finish();
             }
 
         });
