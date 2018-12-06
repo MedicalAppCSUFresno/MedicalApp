@@ -56,7 +56,6 @@ public class RegisterUserForm extends AppCompatActivity {
         mEmail.setText(mAuth.getCurrentUser().getEmail());
 
 
-
         Spinner genspinner = (Spinner) findViewById(R.id.genderSpinner);
         ArrayAdapter<CharSequence> genadapter = ArrayAdapter.createFromResource(this,
                 R.array.gender_array, android.R.layout.simple_spinner_item);

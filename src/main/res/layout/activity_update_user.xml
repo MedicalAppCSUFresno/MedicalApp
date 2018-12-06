@@ -1,9 +1,312 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".UpdateUser">
+    android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profile_layout"
+        android:layout_margin="5dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="20dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="20dp"
+
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="119dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.279" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="321dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/getthatcheckedoutpic"
+            app:layout_constraintBottom_toTopOf="@+id/doc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/fieldUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/fieldName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/fieldEmail"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/fieldPass" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="41dp"
+            android:gravity="center_vertical"
+            android:text="Username"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:text="Password"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="133dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:text="First Name, Last Name"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:text="Email"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:text="Age"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:text="Gender"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:text="Blood Type"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:text="Marital Status"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:text="Phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:text="Address"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <EditText
+            android:id="@+id/fieldPhone"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            app:layout_constraintBottom_toTopOf="@+id/genderSpinner"
+            app:layout_constraintStart_toEndOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/fieldAge" />
+
+        <EditText
+            android:id="@+id/fieldEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toTopOf="@+id/fieldAge"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/fieldName" />
+
+        <EditText
+            android:id="@+id/fieldAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            app:layout_constraintStart_toEndOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/maritalSpinner" />
+
+        <EditText
+            android:id="@+id/fieldAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/fieldPhone"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/fieldEmail" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="12dp"
+            android:text="Update"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fieldAddress" />
+
+        <EditText
+            android:id="@+id/fieldPass"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toTopOf="@+id/fieldName"
+            app:layout_constraintStart_toEndOf="@+id/textView17"
+            app:layout_constraintTop_toBottomOf="@+id/fieldUsername"
+            app:layout_constraintVertical_chainStyle="spread_inside" />
+
+        <Spinner
+            android:id="@+id/genderSpinner"
+            android:layout_width="224dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="14dp"
+            app:layout_constraintBottom_toTopOf="@+id/btypeSpinner"
+            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/fieldPhone" />
+
+        <Spinner
+            android:id="@+id/btypeSpinner"
+            android:layout_width="222dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="14dp"
+            app:layout_constraintBottom_toTopOf="@+id/maritalSpinner"
+            app:layout_constraintStart_toEndOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/genderSpinner" />
+
+        <Spinner
+            android:id="@+id/maritalSpinner"
+            android:layout_width="222dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="14dp"
+            app:layout_constraintBottom_toTopOf="@+id/fieldAddress"
+            app:layout_constraintStart_toEndOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/btypeSpinner" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
