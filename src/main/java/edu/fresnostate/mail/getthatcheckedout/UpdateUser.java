@@ -1,8 +1,9 @@
 package edu.fresnostate.mail.getthatcheckedout;
 
 import android.content.Intent;
-import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -13,10 +14,14 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
-public class RegisterUserForm extends AppCompatActivity {
+public class UpdateUser extends AppCompatActivity {
+
 
     private DatabaseReference mDatabase;
     private FirebaseAuth mAuth;
@@ -27,7 +32,7 @@ public class RegisterUserForm extends AppCompatActivity {
     private EditText mAge;
     private EditText mPhone;
     private EditText mAddress;
-    private Button mRegister;
+    private Button mUpdate;
     private Spinner mBloodtype;
     private Spinner mMarital;
     private Spinner mGender;
@@ -37,8 +42,13 @@ public class RegisterUserForm extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_user_form);
 
-        mDatabase = FirebaseDatabase.getInstance().getReference();
+//        mDatabase = FirebaseDatabase.getInstance().getReference();
+//        mAuth = FirebaseAuth.getInstance();
+
         mAuth = FirebaseAuth.getInstance();
+        mDatabase = FirebaseDatabase.getInstance("https://medicalapp-23670.firebaseio.com/").getReference();
+        DatabaseReference databaseReferenceUser = mDatabase.child("users");
+        DatabaseReference databaseReference = databaseReferenceUser.child(mAuth.getUid());
 
         // Views
         mEmail = findViewById(R.id.fieldEmail);
@@ -47,13 +57,99 @@ public class RegisterUserForm extends AppCompatActivity {
         mAge = findViewById(R.id.fieldAge);
         mPhone = findViewById(R.id.fieldPhone);
         mAddress = findViewById(R.id.fieldAddress);
-        mRegister = findViewById(R.id.regButton);
+        mUpdate = findViewById(R.id.regButton);
         mBloodtype = findViewById(R.id.btypeSpinner);
         mMarital = findViewById(R.id.maritalSpinner);
         mGender = findViewById(R.id.genderSpinner);
 
+        DatabaseReference address = databaseReference.child("taddress");
+        DatabaseReference age = databaseReference.child("tage");
+        DatabaseReference phone = databaseReference.child("tphone");
+        DatabaseReference email = databaseReference.child("temail");
+        DatabaseReference name = databaseReference.child("tname");
+        DatabaseReference username = databaseReference.child("tusername");
+
         mUsername.setText(usernameFromEmail(mAuth.getCurrentUser().getEmail()));
         mEmail.setText(mAuth.getCurrentUser().getEmail());
+
+        //Fill all Fields
+        age.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String value = dataSnapshot.getValue(String.class);
+                mAge.setText(value);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+        address.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String value = dataSnapshot.getValue(String.class);
+                mAddress.setText(value);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+        phone.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String value = dataSnapshot.getValue(String.class);
+                mPhone.setText(value);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+        email.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String value = dataSnapshot.getValue(String.class);
+                mEmail.setText(value);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+        name.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String value = dataSnapshot.getValue(String.class);
+                mName.setText(value);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+        username.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String value = dataSnapshot.getValue(String.class);
+                mUsername.setText(value);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
 
 
         Spinner genspinner = (Spinner) findViewById(R.id.genderSpinner);
@@ -75,7 +171,7 @@ public class RegisterUserForm extends AppCompatActivity {
         marspinner.setAdapter(maradapter);
 
 
-        mRegister.setOnClickListener(new View.OnClickListener() {
+        mUpdate.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -102,9 +198,9 @@ public class RegisterUserForm extends AppCompatActivity {
                 onAuthSuccess(mAuth.getCurrentUser(), rAge, rBloodtype, rPhone, rAddress, rMarital, rName, rGender);
 
 
-                Intent startIntent = new Intent(RegisterUserForm.this, ProfilePage1.class);
+                Intent startIntent = new Intent(UpdateUser.this, ProfilePage1.class);
                 startActivity(startIntent);
-                RegisterUserForm.this.finish();
+                UpdateUser.this.finish();
             }
 
         });
@@ -118,7 +214,7 @@ public class RegisterUserForm extends AppCompatActivity {
         writeNewUser(user.getUid(), username, user.getEmail(), age, bloodtype, phone, address, marital, name, gender);
 
         // Go to MainActivity
-        startActivity(new Intent(RegisterUserForm.this, ProfilePage1.class));
+        startActivity(new Intent(UpdateUser.this, ProfilePage1.class));
         finish();
     }
 
@@ -131,7 +227,7 @@ public class RegisterUserForm extends AppCompatActivity {
     }
 
     private void writeNewUser(String userId, String username, String email, String age, String bloodtype, String phone, String address, String marital, String name, String gender) {
-        User user = new User(name, email, age, bloodtype, phone, address, marital, username, gender);
+        UpdateUser.User user = new UpdateUser.User(name, email, age, bloodtype, phone, address, marital, username, gender);
 
         mDatabase.child("users").child(userId).setValue(user);
     }
@@ -166,3 +262,4 @@ public class RegisterUserForm extends AppCompatActivity {
 
     }
 }
+

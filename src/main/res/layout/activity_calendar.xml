@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".CalendarActivity"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/myDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="30dp"
+        android:textColor="#FFF"
+        android:text="@string/selected_date" />
+
+    <TextView
+        android:id="@+id/CalendarForYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/calendar_for_you"
+        android:textColor="#FFF"
+        android:textSize="23sp" />
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_calen"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        >
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="340dp">
+
+        </CalendarView>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/docReminder"
+        android:background="@drawable/bg_calenbtn1"
+        android:layout_marginTop="10dp"
+        android:text="@string/save_appointment"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="25dp"
+        android:minWidth="25dp"/>
+    <Button
+        android:id="@+id/pillReminder"
+        android:background="@drawable/bg_calenbtn2"
+        android:layout_marginTop="10dp"
+        android:text="@string/save_pill_reminder"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="25dp"
+        android:minWidth="25dp"/>
+
+    <Button
+        android:id="@+id/pillRefill"
+        android:background="@drawable/bg_calenbtn3"
+        android:layout_marginTop="10dp"
+        android:text="@string/save_pill_refill"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="25dp"
+        android:minWidth="25dp" />
+    <Button
+        android:id="@+id/returnHome"
+        android:background="@drawable/bg_calenbtn4"
+        android:layout_marginTop="10dp"
+        android:text="@string/return_home"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="25dp"
+        android:minWidth="25dp"/>
+
+</LinearLayout>

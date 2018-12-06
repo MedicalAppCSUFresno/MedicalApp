@@ -250,13 +250,13 @@
             app:layout_constraintTop_toBottomOf="@+id/fieldEmail" />
 
         <Button
-            android:id="@+id/regButton"
+            android:id="@+id/updateButton"
             android:layout_width="247dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
             android:layout_marginLeft="64dp"
             android:layout_marginTop="12dp"
-            android:text="Register"
+            android:text="Update"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/fieldAddress" />
 
