@@ -31,29 +31,11 @@ public class ProfilePage1 extends Activity {
             }
         });
 
-        ImageButton hospitalBtn = (ImageButton) findViewById(R.id.hospital);
-        hospitalBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent startIntent = new Intent(ProfilePage1.this, DoctorFinder.class);
-                startActivity(startIntent);
-            }
-        });
-
         ImageButton rxBtn = (ImageButton) findViewById(R.id.rx);
         rxBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(ProfilePage1.this, DoctorFinder.class);
-                startActivity(startIntent);
-            }
-        });
-
-        ImageButton ivBtn = (ImageButton) findViewById(R.id.iv);
-        ivBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent startIntent = new Intent(ProfilePage1.this, DoctorFinder.class);
+                Intent startIntent = new Intent(ProfilePage1.this, PersonalProfile.class);
                 startActivity(startIntent);
             }
         });
@@ -67,6 +49,35 @@ public class ProfilePage1 extends Activity {
             }
         });
 
+
+
+        ImageButton monitorBtn = (ImageButton) findViewById(R.id.monitor);
+        monitorBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(ProfilePage1.this, CalendarActivity.class);
+                startActivity(startIntent);
+            }
+        });
+/*
+        ImageButton ivBtn = (ImageButton) findViewById(R.id.iv);
+        ivBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(ProfilePage1.this, DoctorFinder.class);
+                startActivity(startIntent);
+            }
+        });
+
+        ImageButton hospitalBtn = (ImageButton) findViewById(R.id.hospital);
+        hospitalBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(ProfilePage1.this, DoctorFinder.class);
+                startActivity(startIntent);
+            }
+        });
+
         ImageButton needleBtn = (ImageButton) findViewById(R.id.needle);
         needleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,16 +86,6 @@ public class ProfilePage1 extends Activity {
                 startActivity(startIntent);
             }
         });
-
-        ImageButton monitorBtn = (ImageButton) findViewById(R.id.monitor);
-        monitorBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent startIntent = new Intent(ProfilePage1.this, DoctorFinder.class);
-                startActivity(startIntent);
-            }
-        });
-
         ImageButton nurseBtn = (ImageButton) findViewById(R.id.nurse);
         nurseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,5 +94,6 @@ public class ProfilePage1 extends Activity {
                 startActivity(startIntent);
             }
         });
+*/
     }
 }

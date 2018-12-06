@@ -78,13 +78,12 @@ public class LoginPage extends AppCompatActivity {
                         .addOnCompleteListener(LoginPage.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
-                                Toast.makeText(LoginPage.this, "signinUserWithEmail:onComplete:" + task.isSuccessful(), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LoginPage.this, "Login Success", Toast.LENGTH_SHORT).show();
                                 // If sign in fails, display a message to the user. If sign in succeeds
                                 // the auth state listener will be notified and logic to handle the
                                 // signed in user can be handled in the listener.
                                 if (!task.isSuccessful()) {
-                                    Toast.makeText(LoginPage.this, "Authentication failed." + task.getException(),
-                                            Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(LoginPage.this, "Login failed", Toast.LENGTH_SHORT).show();
                                 } else {
                                     startActivity(new Intent(LoginPage.this, ProfilePage1.class));
                                     finish();
@@ -97,6 +96,7 @@ public class LoginPage extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+
                 String email = emailtxt.getText().toString().trim();
                 String password = passwordtxt.getText().toString().trim();
 
@@ -105,7 +105,7 @@ public class LoginPage extends AppCompatActivity {
                 }
 
                 if(TextUtils.isEmpty(password)){
-                    Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Enter password!", Toast.LENGTH_SHORT).show();
                 }
 
                 if (password.length() < 6) {
@@ -117,15 +117,15 @@ public class LoginPage extends AppCompatActivity {
                         .addOnCompleteListener(LoginPage.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
-                                Toast.makeText(LoginPage.this, "createUserWithEmail:onComplete:" + task.isSuccessful(), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LoginPage.this, "Created New User", Toast.LENGTH_SHORT).show();
                                 // If sign in fails, display a message to the user. If sign in succeeds
                                 // the auth state listener will be notified and logic to handle the
                                 // signed in user can be handled in the listener.
                                 if (!task.isSuccessful()) {
-                                    Toast.makeText(LoginPage.this, "Authentication failed." + task.getException(),
+                                    Toast.makeText(LoginPage.this, "Create User Failed",
                                             Toast.LENGTH_SHORT).show();
                                 } else {
-                                    startActivity(new Intent(LoginPage.this, ProfilePage1.class));
+                                    startActivity(new Intent(LoginPage.this, RegisterUserForm.class));
                                     finish();
                                 }
                             }

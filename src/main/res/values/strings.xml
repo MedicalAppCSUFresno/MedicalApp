@@ -18,5 +18,37 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="bloodtype_array">
+        <item>Most Rare: AB-</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>O-</item>
+        <item>B+</item>
+        <item>A-</item>
+        <item>Most Common: O+</item>
+    </string-array>
+    <string-array name="marital_array">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Compicated</item>
+        <item>Other</item>>
+    </string-array>
+
+    <string name="calendar_for_you">Calendar for You</string>
+    <string name="save_appointment">Save My Appointment</string>
+    <string name="save_pill_reminder">Save My Pill Reminder</string>
+    <string name="save_pill_refill">Save My Pill Refill</string>
+    <string name="return_home">Return Home</string>
+    <string name="selected_date">Selected Date</string>
+    <string name="dont_forget">Remember to take pill:</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="return_calendar">Return to Calendar</string>
 
 </resources>
