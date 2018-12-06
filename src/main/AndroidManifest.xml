@@ -65,6 +65,9 @@
 
         <receiver android:name=".AlarmReceiver" />
 
+        <activity android:name=".AppointmentAlarm" />
+        <activity android:name=".PillAlarm"></activity>
+
         <activity android:name=".UpdateUser"></activity>
     </application>
 

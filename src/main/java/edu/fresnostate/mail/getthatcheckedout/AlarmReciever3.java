@@ -10,7 +10,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 
-public class AlarmReceiver extends BroadcastReceiver {
+public class AlarmReciever3 extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -20,7 +20,7 @@ public class AlarmReceiver extends BroadcastReceiver {
         String message = intent.getStringExtra("todo");
 
         //When notification is tapped, call alarm activity.
-        Intent mainIntent = new Intent(context, AlarmActivity.class);
+        Intent mainIntent = new Intent(context, PillAlarm.class);
         PendingIntent contentIntent = PendingIntent.getActivity(context, 0, mainIntent, 0);
 
 
@@ -29,13 +29,13 @@ public class AlarmReceiver extends BroadcastReceiver {
         //Prepare Notification
         Notification.Builder builder = new Notification.Builder(context);
         builder.setSmallIcon(android.R.drawable.ic_dialog_info)
-                .setContentTitle("Time to take medication!")
+                .setContentTitle("Time to refill medication!")
                 .setContentText(message)
                 .setWhen(System.currentTimeMillis())
                 .setAutoCancel(true)
                 .setContentIntent(contentIntent);
 
-                //Notify
+        //Notify
         /*if (Build.VERSION.SDK_INT < 16) {
             myNotificationManager.notify(notificationId, builder.getNotification());
         } else {
@@ -57,21 +57,5 @@ public class AlarmReceiver extends BroadcastReceiver {
     NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.createNotificationChannel(notificationChannel);*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

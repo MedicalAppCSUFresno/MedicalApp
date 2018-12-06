@@ -4,31 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AlarmActivity"
+    tools:context=".AppointmentAlarm"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:padding="10dp"
-    >
+    android:padding="10dp">
 
     <TextView
-        android:id="@+id/alarmTitle"
+        android:id="@+id/alarmTitleDoc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/dont_forget"
+        android:text="@string/dont_forget2"
         android:layout_marginTop="5dp"
         android:textColor="#000000"
         android:textSize="25sp"
         />
 
     <EditText
-        android:id="@+id/medicationInput"
+        android:id="@+id/doctorInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your medication"
-        android:autofillHints="" />
-    
+        android:hint="Enter your Doctor"
+        />
+
     <TimePicker
-        android:id="@+id/alarmClock"
+        android:id="@+id/alarmClock2"
         android:layout_width="300dp"
         android:layout_height="350dp"
         />
@@ -40,13 +39,13 @@
         android:layout_marginTop="2dp"
         >
         <Button
-            android:id="@+id/alarmbtn1"
+            android:id="@+id/alarmbtn1Doc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/set"
             android:layout_marginRight="20dp"/>
         <Button
-            android:id="@+id/alarmbtn2"
+            android:id="@+id/alarmbtn2Doc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cancel"/>
