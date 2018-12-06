@@ -11,11 +11,12 @@ import android.widget.EditText;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import java.sql.Time;
 import java.util.Calendar;
 
-public class AppointmentAlarm extends AppCompatActivity implements View.OnClickListener{
+public class AppointmentAlarm extends AppCompatActivity implements View.OnClickListener {
 
-    private int notificationId = 1;
+    private int notificationId = 2;
     private Button returnCalen;
 
     @Override
@@ -37,7 +38,7 @@ public class AppointmentAlarm extends AppCompatActivity implements View.OnClickL
     }
 
     @Override
-    public void onClick(View v) {
+    public void onClick(View view) {
         EditText editText = findViewById(R.id.doctorInput);
         TimePicker timePicker = findViewById(R.id.alarmClock2);
 
