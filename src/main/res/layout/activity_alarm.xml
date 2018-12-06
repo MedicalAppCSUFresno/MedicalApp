@@ -10,14 +10,14 @@
     android:padding="10dp"
     >
 
-    <EditText
+    <TextView
         android:id="@+id/alarmTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/dont_forget"
         android:layout_marginTop="5dp"
         android:textColor="#000000"
-        android:textSize="23sp"
+        android:textSize="25dp"
         />
 
     <EditText
