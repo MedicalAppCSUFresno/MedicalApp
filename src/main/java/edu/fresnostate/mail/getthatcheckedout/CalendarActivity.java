@@ -9,11 +9,14 @@ import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.TextView;
 
+import java.util.Calendar;
+
 public class CalendarActivity extends AppCompatActivity {
 
     private Button returnHome;
     private Button pillReminder;
     private Button docAppointment;
+    private Button refillReminder;
     CalendarView calendarView;
     TextView myDate;
 
@@ -59,6 +62,16 @@ public class CalendarActivity extends AppCompatActivity {
                 startActivity(startIntent);
             }
         });
+
+        refillReminder = (Button) findViewById(R.id.pillRefill);
+        refillReminder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(CalendarActivity.this, PillAlarm.class);
+                startActivity(startIntent);
+            }
+        });
+
     }
 
     public void returnHomePage() {
