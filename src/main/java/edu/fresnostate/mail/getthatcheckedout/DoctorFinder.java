@@ -53,6 +53,8 @@ public class DoctorFinder extends FragmentActivity implements OnMapReadyCallback
     int PROXIMITY_RADIUS = 10000;
     double latitude, longitude;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

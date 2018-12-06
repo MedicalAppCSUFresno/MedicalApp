@@ -50,16 +50,16 @@
             android:paddingBottom="24dp">
 
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/edit"
-                android:layout_width="wrap_content"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="55dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
                 android:clickable="true"
-
                 android:src="@android:drawable/ic_menu_edit" />
 
             <TextView
@@ -73,14 +73,14 @@
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
-            <TextView
+            <Button
                 android:id="@+id/location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/designation"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:text="Surat"
+                android:text="Logout"
                 android:textColor="#fff"
                 android:textSize="16sp" />
 

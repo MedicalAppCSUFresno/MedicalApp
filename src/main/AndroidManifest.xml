@@ -58,11 +58,14 @@
         <activity android:name=".PillID" />
         <activity android:name=".ResetPassword" />
         <activity android:name=".PersonalProfile" />
-        <activity android:name=".RegisterUserForm"></activity>
+        <activity android:name=".RegisterUserForm" />
         <activity android:name=".ResetPassword" />
         <activity android:name=".CalendarActivity" />
-        <activity android:name=".AlarmActivity"></activity>
+        <activity android:name=".AlarmActivity" />
+
         <receiver android:name=".AlarmReceiver" />
+
+        <activity android:name=".UpdateUser"></activity>
     </application>
 
 </manifest>
