@@ -183,6 +183,32 @@ public class DoctorFinder extends FragmentActivity implements OnMapReadyCallback
             Toast.makeText(DoctorFinder.this, "Showing Nearby Hospitals", Toast.LENGTH_LONG).show();
         }
 
+        if(v.getId() == R.id.B_pharmacies)
+        {
+            mMap.clear();
+            String pharmacies = "pharmacies";
+            String url = getUrl(latitude, longitude, pharmacies);
+
+            dataTransfer[0] = mMap;
+            dataTransfer[1] = url;
+
+            getNearbyPlacesData.execute(dataTransfer);
+            Toast.makeText(DoctorFinder.this, "Showing Nearby Pharmacies", Toast.LENGTH_LONG).show();
+        }
+
+        if(v.getId() == R.id.B_doctor)
+        {
+            mMap.clear();
+            String doctors = "doctors";
+            String url = getUrl(latitude, longitude, doctors);
+
+            dataTransfer[0] = mMap;
+            dataTransfer[1] = url;
+
+            getNearbyPlacesData.execute(dataTransfer);
+            Toast.makeText(DoctorFinder.this, "Showing Nearby Doctors", Toast.LENGTH_LONG).show();
+        }
+
         if(v.getId() == R.id.I_Search)
         {
             Intent startIntent = new Intent(DoctorFinder.this, ProfilePage1.class);

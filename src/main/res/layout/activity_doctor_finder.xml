@@ -51,20 +51,33 @@
         android:text="@string/search" />
 
     <Button
-        android:id="@+id/I_Search"
+        android:id="@+id/B_pharmacies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-140dp"
+        android:layout_marginLeft="-140dp"
+        android:layout_marginTop="439dp"
+        android:layout_toEndOf="@+id/TF_location"
+        android:layout_toRightOf="@+id/TF_location"
+        android:onClick="onClick"
+        android:text="Pharmacies" />
+
+    <Button
+        android:id="@+id/B_hospitals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginStart="-250dp"
         android:layout_marginLeft="-250dp"
-        android:layout_marginTop="463dp"
+        android:layout_marginTop="519dp"
         android:layout_toEndOf="@+id/TF_location"
         android:layout_toRightOf="@+id/TF_location"
         android:onClick="onClick"
         android:text="Hospitals" />
 
     <ImageButton
-        android:id="@+id/B_hospitals"
+        android:id="@+id/I_Search"
         android:layout_width="43dp"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
