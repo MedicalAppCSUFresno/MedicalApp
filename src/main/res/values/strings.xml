@@ -26,6 +26,7 @@
     <string name="selected_date">Selected Date</string>
     <string name="dont_forget">Remember to take pill:</string>
     <string name="dont_forget2">Remember your appointment:</string>
+    <string name="dont_forget3">Remember your refill:</string>
     <string name="set">Set</string>
     <string name="cancel">Cancel</string>
     <string name="return_calendar">Return to Calendar</string>

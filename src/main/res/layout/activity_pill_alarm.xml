@@ -1,9 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PillAlarm">
+    tools:context=".PillAlarm"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    >
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/pillTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dont_forget3"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/refillInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your refill location"
+        android:autofillHints="" />
+
+    <TimePicker
+        android:id="@+id/alarmClock3"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        >
+        <Button
+            android:id="@+id/alarmbtn1Pill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/alarmbtn2Pill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/returnCalen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/return_calendar"/>
+
+
+</LinearLayout>
