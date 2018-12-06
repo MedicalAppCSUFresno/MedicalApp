@@ -15,7 +15,7 @@ public class AlarmReceiver2 extends BroadcastReceiver {
         String message = intent.getStringExtra("todo");
 
         //When notification is tapped, call alarm activity.
-        Intent mainIntent = new Intent(context, AlarmActivity.class);
+        Intent mainIntent = new Intent(context, AppointmentAlarm.class);
         PendingIntent contentIntent = PendingIntent.getActivity(context, 0, mainIntent, 0);
 
 
@@ -24,7 +24,7 @@ public class AlarmReceiver2 extends BroadcastReceiver {
         //Prepare Notification
         Notification.Builder builder = new Notification.Builder(context);
         builder.setSmallIcon(android.R.drawable.ic_dialog_info)
-                .setContentTitle("Time for!")
+                .setContentTitle("Time for appointment!")
                 .setContentText(message)
                 .setWhen(System.currentTimeMillis())
                 .setAutoCancel(true)

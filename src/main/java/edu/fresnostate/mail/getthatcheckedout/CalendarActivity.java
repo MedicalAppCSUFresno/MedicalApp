@@ -13,6 +13,7 @@ public class CalendarActivity extends AppCompatActivity {
 
     private Button returnHome;
     private Button pillReminder;
+    private Button docAppointment;
     CalendarView calendarView;
     TextView myDate;
 
@@ -46,6 +47,15 @@ public class CalendarActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent startIntent = new Intent(CalendarActivity.this, AlarmActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        docAppointment = (Button) findViewById(R.id.docReminder);
+        docAppointment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(CalendarActivity.this, AppointmentAlarm.class);
                 startActivity(startIntent);
             }
         });

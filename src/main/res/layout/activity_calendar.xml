@@ -44,6 +44,7 @@
     </LinearLayout>
     
     <Button
+        android:id="@+id/docReminder"
         android:background="@drawable/bg_calenbtn1"
         android:layout_marginTop="10dp"
         android:text="@string/save_appointment"
@@ -66,6 +67,7 @@
         android:minWidth="25dp"/>
 
     <Button
+        android:id="@+id/pillRefill"
         android:background="@drawable/bg_calenbtn3"
         android:layout_marginTop="10dp"
         android:text="@string/save_pill_refill"

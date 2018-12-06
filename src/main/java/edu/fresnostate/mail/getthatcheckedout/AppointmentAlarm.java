@@ -42,7 +42,7 @@ public class AppointmentAlarm extends AppCompatActivity implements View.OnClickL
         TimePicker timePicker = findViewById(R.id.alarmClock2);
 
         // Set notificationID and text.
-        Intent intent = new Intent(AppointmentAlarm.this, AlarmReceiver.class);
+        Intent intent = new Intent(AppointmentAlarm.this, AlarmReceiver2.class);
         intent.putExtra("notificationId", notificationId);
         intent.putExtra("todo", editText.getText().toString());
 
