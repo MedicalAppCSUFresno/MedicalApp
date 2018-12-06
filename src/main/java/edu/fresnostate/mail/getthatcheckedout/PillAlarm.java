@@ -43,7 +43,7 @@ public class PillAlarm extends AppCompatActivity implements View.OnClickListener
         TimePicker timePicker = findViewById(R.id.alarmClock3);
 
         // Set notificationID and text.
-        Intent intent = new Intent(PillAlarm.this, AlarmReceiver3.class);
+        Intent intent = new Intent(PillAlarm.this, AlarmReciever3.class);
         intent.putExtra("notificationId", notificationId);
         intent.putExtra("todo", editText.getText().toString());
 
